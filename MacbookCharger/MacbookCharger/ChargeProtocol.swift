@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol Charger {
+protocol ChargerProtocol {
     var chargemAhPerHour: Double { get set }
     func convert(chargeablemAhPerHour: Double) -> Double
 }
