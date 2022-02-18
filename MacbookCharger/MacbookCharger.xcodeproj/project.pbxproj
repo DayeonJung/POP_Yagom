@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		039DACDF27BE819A00F9040C /* ChargeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACDE27BE819A00F9040C /* ChargeProtocol.swift */; };
 		039DACE127BE82D000F9040C /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACE027BE82D000F9040C /* Charger.swift */; };
+		039DACE327BF308500F9040C /* Macbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACE227BF308500F9040C /* Macbook.swift */; };
 		B4DC78C127BE81580087F9DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC78C027BE81580087F9DB /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 /* Begin PBXFileReference section */
 		039DACDE27BE819A00F9040C /* ChargeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeProtocol.swift; sourceTree = "<group>"; };
 		039DACE027BE82D000F9040C /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
+		039DACE227BF308500F9040C /* Macbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macbook.swift; sourceTree = "<group>"; };
 		B4DC78BD27BE81580087F9DB /* MacbookCharger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacbookCharger; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DC78C027BE81580087F9DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,6 +66,7 @@
 				B4DC78C027BE81580087F9DB /* main.swift */,
 				039DACDE27BE819A00F9040C /* ChargeProtocol.swift */,
 				039DACE027BE82D000F9040C /* Charger.swift */,
+				039DACE227BF308500F9040C /* Macbook.swift */,
 			);
 			path = MacbookCharger;
 			sourceTree = "<group>";
@@ -125,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039DACE327BF308500F9040C /* Macbook.swift in Sources */,
 				B4DC78C127BE81580087F9DB /* main.swift in Sources */,
 				039DACE127BE82D000F9040C /* Charger.swift in Sources */,
 				039DACDF27BE819A00F9040C /* ChargeProtocol.swift in Sources */,

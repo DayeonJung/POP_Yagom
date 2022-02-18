@@ -10,7 +10,7 @@ import Foundation
 struct IphoneCharger: ChargerProtocol {
     var chargemAhPerHour: Double
     
-    func convert(chargeablemAhPerHour: Double) -> Double {
+    func convert(_ chargeablemAhPerHour: Double) -> Double {
         if chargeablemAhPerHour < self.chargemAhPerHour {
             return chargeablemAhPerHour
         }
@@ -21,7 +21,7 @@ struct IphoneCharger: ChargerProtocol {
 struct MackBookCharger: ChargerProtocol {
     var chargemAhPerHour: Double
     
-    func convert(chargeablemAhPerHour: Double) -> Double {
+    func convert(_ chargeablemAhPerHour: Double) -> Double {
         if chargeablemAhPerHour < self.chargemAhPerHour {
             return chargeablemAhPerHour
         }
@@ -32,7 +32,7 @@ struct MackBookCharger: ChargerProtocol {
 struct IPadCharger: ChargerProtocol {
     var chargemAhPerHour: Double
     
-    func convert(chargeablemAhPerHour: Double) -> Double {
+    func convert(_ chargeablemAhPerHour: Double) -> Double {
         if chargeablemAhPerHour < self.chargemAhPerHour {
             return chargeablemAhPerHour
         }
