@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039DACDF27BE819A00F9040C /* ChargeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACDE27BE819A00F9040C /* ChargeProtocol.swift */; };
+		039DACDF27BE819A00F9040C /* Chargable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACDE27BE819A00F9040C /* Chargable.swift */; };
 		039DACE127BE82D000F9040C /* Charger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACE027BE82D000F9040C /* Charger.swift */; };
 		039DACE327BF308500F9040C /* Macbook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACE227BF308500F9040C /* Macbook.swift */; };
+		039DACE627BF3A2B00F9040C /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACE527BF3A2B00F9040C /* Bag.swift */; };
+		039DACE827BF3A4A00F9040C /* Portable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 039DACE727BF3A4A00F9040C /* Portable.swift */; };
 		B4DC78C127BE81580087F9DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DC78C027BE81580087F9DB /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,9 +28,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		039DACDE27BE819A00F9040C /* ChargeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargeProtocol.swift; sourceTree = "<group>"; };
+		039DACDE27BE819A00F9040C /* Chargable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargable.swift; sourceTree = "<group>"; };
 		039DACE027BE82D000F9040C /* Charger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charger.swift; sourceTree = "<group>"; };
 		039DACE227BF308500F9040C /* Macbook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macbook.swift; sourceTree = "<group>"; };
+		039DACE527BF3A2B00F9040C /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
+		039DACE727BF3A4A00F9040C /* Portable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Portable.swift; sourceTree = "<group>"; };
 		B4DC78BD27BE81580087F9DB /* MacbookCharger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MacbookCharger; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4DC78C027BE81580087F9DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,9 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				B4DC78C027BE81580087F9DB /* main.swift */,
-				039DACDE27BE819A00F9040C /* ChargeProtocol.swift */,
+				039DACDE27BE819A00F9040C /* Chargable.swift */,
+				039DACE727BF3A4A00F9040C /* Portable.swift */,
 				039DACE027BE82D000F9040C /* Charger.swift */,
 				039DACE227BF308500F9040C /* Macbook.swift */,
+				039DACE527BF3A2B00F9040C /* Bag.swift */,
 			);
 			path = MacbookCharger;
 			sourceTree = "<group>";
@@ -128,10 +134,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				039DACE627BF3A2B00F9040C /* Bag.swift in Sources */,
 				039DACE327BF308500F9040C /* Macbook.swift in Sources */,
 				B4DC78C127BE81580087F9DB /* main.swift in Sources */,
 				039DACE127BE82D000F9040C /* Charger.swift in Sources */,
-				039DACDF27BE819A00F9040C /* ChargeProtocol.swift in Sources */,
+				039DACE827BF3A4A00F9040C /* Portable.swift in Sources */,
+				039DACDF27BE819A00F9040C /* Chargable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 886LX3G4KC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -268,7 +276,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 886LX3G4KC;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

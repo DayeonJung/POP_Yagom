@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let macbook = Macbook(chargeablemAhPerHour: 100, currentBatterCapacitymAh: 500, maxBatterCapacitymAh: 1000)
+let mackbookCharger = MackBookCharger(chargemAhPerHour: 100)
 
+var gucciBag = Bag()
+gucciBag.put(item: macbook)
+gucciBag.put(item: mackbookCharger)

@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct IphoneCharger: ChargerProtocol {
+struct IphoneCharger: Chargable {
     var chargemAhPerHour: Double
     
     func convert(_ chargeablemAhPerHour: Double) -> Double {
@@ -18,7 +18,7 @@ struct IphoneCharger: ChargerProtocol {
     }
 }
 
-struct MackBookCharger: ChargerProtocol {
+struct MackBookCharger: Chargable {
     var chargemAhPerHour: Double
     
     func convert(_ chargeablemAhPerHour: Double) -> Double {
@@ -29,7 +29,7 @@ struct MackBookCharger: ChargerProtocol {
     }
 }
 
-struct IPadCharger: ChargerProtocol {
+struct IPadCharger: Chargable {
     var chargemAhPerHour: Double
     
     func convert(_ chargeablemAhPerHour: Double) -> Double {
