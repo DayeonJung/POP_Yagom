@@ -7,12 +7,12 @@
 
 import Foundation
 
-struct Macbook {
+struct Macbook: Portable {
     let chargeablemAhPerHour: Double
     var currentBatterCapacitymAh: Double
     let maxBatterCapacitymAh: Double
     
-    mutating func chargeBattery(charger: ChargerProtocol) {
+    mutating func chargeBattery(charger: Chargable) {
         var chargingTime: Double = 0
         while currentBatterCapacitymAh < maxBatterCapacitymAh {
             let convertedChargeablemAhPerHour = charger.convert(self.chargeablemAhPerHour)
